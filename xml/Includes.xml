@@ -100,7 +100,7 @@
 			<control type="group">
 				<animation effect="fade" time="0" condition="$PARAM[animation]">VisibleChange</animation>
 				<include content="UserRatingContent" condition="Skin.HasSetting(circle_userrating)">
-					<param name="infolabel" value="ListItem.UserRating" />
+					<param name="infolabel" value="ListItem.Rating" />
 				</include>
 				<include content="UserRatingContent" condition="Skin.HasSetting(circle_rating)">
 					<param name="infolabel" value="ListItem.Rating" />
